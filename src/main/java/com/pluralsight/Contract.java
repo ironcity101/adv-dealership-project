@@ -12,8 +12,7 @@ public abstract class Contract {
         DateOfContract = dateOfContract;
         CustomerName = customerName;
         CustomerEmail = customerEmail;
-        VehicleSold = vehicleSold;
-    }
+        VehicleSold = vehicleSold;    }
 
     public String getDateOfContract() {
         return DateOfContract;
@@ -47,7 +46,7 @@ public abstract class Contract {
         VehicleSold = vehicleSold;
     }
 
-    public abstract void GetTotalPrice();
+    public abstract double GetTotalPrice();
 
-    public abstract void GetMonthlyPrice();
+    public abstract double getMonthlyPrice();
 }
